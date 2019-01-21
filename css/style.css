@@ -1,0 +1,265 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+p {
+    font-size: 16px;
+    color: #464646;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+}
+
+.header-top {
+    width: 100%;
+    height: 70px;
+    background-color: #464646;
+}
+
+.social-icon {
+    margin-top: 10px;
+    padding-right: 20px;
+}
+
+.logo {
+    font-size: 30px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.social {
+    display: flex;
+    margin-top: 20px; 
+}
+
+.social-icons {
+    padding-right: 20px;
+}
+
+.login {
+    margin-top: 24px;
+}
+
+.navbar-list {
+    margin-top: 10px;
+}
+
+.navbar-link {
+    padding-right: 20px;
+}
+
+form {
+    margin-top: 12px;
+}
+
+.search {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 270px;
+    border: none;
+    border-radius: 4px;
+}
+
+.header-bottom {
+    width: 100%;
+    height: 50px;
+    background-color: #00CC3D;
+}
+
+.slider {
+    width: 100%;
+    height: 648px;
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0, 0.8)), url(../images/photo-bg1.jpg) center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.header-title {
+    padding-top: 150px;
+    padding-bottom: 30px;
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.header-text {
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: normal;
+    color: #fff;
+}
+
+
+
+
+
+.heading {
+    font-size: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.heading::after {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 1px;
+    background-color: #d5423a;
+    margin-top: 5px;
+}
+
+.block-l, .block-r {
+    width: 100%;
+    height: 350px;
+    background: #000;
+}
+
+.block-l {
+    background: linear-gradient(rgba(0,0,0, 0.4), rgba(0,0,0,0.5)), url(../images/Без-имени-1.jpg) no-repeat;
+    object-fit: contain;
+}
+
+.block-r {
+    background: linear-gradient(rgba(0,0,0, 0.4), rgba(0,0,0,0.5)), url(../images/event-image-2.jpg) no-repeat;
+    overflow: hidden;
+    object-fit: contain;
+}
+/* div.images{
+    background: linear-gradient(rgba(0,0,0, 0.4), rgba(0,0,0,0.5)), url(../images/event1small.jpg) no-repeat;
+
+
+} */
+
+.events-link:hover {
+    
+}
+
+.events-heading {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    padding-top: 220px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.events-text {
+    font-size: 16px;
+    color: #fff;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.section-button {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn {
+    width: 350px;
+    background: #00CC3D;
+    border: none;
+    margin-left: -1px;
+    color: #fff;
+    margin-top: 45px;
+    border-radius: 0 0 7px 7px;
+}
+
+.section-btn {
+    margin-top: 50px;
+    border-radius: 7px;
+}
+
+.blocks {
+    width: 100%;
+    height: 540px;
+    background: #fff;
+    border: 1px solid #464646;
+    border-radius: 7px;
+}
+
+.blocks:hover {
+
+}
+
+.block-image {
+    width: 100%;
+    height: 225px;
+    border-radius: 7px 7px 0 0;
+}
+
+.blocks-heading {
+    font-size: 16px;
+    font-weight: bold;
+    color: #d5423a;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.blocks-text {
+    font-size: 16px;
+    color: #464646;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+}
+
+.numbers {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.numbers a {
+    color: #00CC3D;
+    font-weight: bold;
+}
+
+.mail {
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #00CC3D;
+    font-weight: bold;
+}
+
+.mail:hover {
+    color:#00CC3D;
+}
+
+
+.footer {
+    width: 100%;
+    background: #000;
+    margin-top: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.footer p {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    font-style: italic;
+}
