@@ -3,8 +3,8 @@
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
-#searcc{
-    margin-top: 10px;
+input#searcc{
+    margin-top: 12px;
 }
 
 html {
