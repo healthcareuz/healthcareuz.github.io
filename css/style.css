@@ -9,6 +9,9 @@ input#searcc{
 div#clinicdown{
     background-color: #fff;
 }
+h1.logo{
+    padding-top: -10px;
+}
 
 html {
     scroll-behavior: smooth;
