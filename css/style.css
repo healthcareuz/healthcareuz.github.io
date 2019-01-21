@@ -10,7 +10,17 @@ div#clinicdown{
     background-color: #fff;
 }
 h1.logo{
-    margin-top: -5px;
+    
+}
+div.buqu button{
+    background-color: rgb(0, 0, 0);
+    width: 100px;
+    height: 40px;
+
+    /* margin-top: -5px; */
+}
+div.buqu{
+    padding-left: 40px;
 }
 
 html {
