@@ -6,6 +6,9 @@
 input#searcc{
     margin-top: 12px;
 }
+div#clinicdown{
+    background-color: #fff;
+}
 
 html {
     scroll-behavior: smooth;
